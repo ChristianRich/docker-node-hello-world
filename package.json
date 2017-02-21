@@ -1,0 +1,21 @@
+{
+  "name": "Docker-node-hello-world",
+  "description": "Hello World Dockerised Node.js application",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">=6.9.4"
+  },
+  "dependencies": {
+    "express": "~4.9.0",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.5",
+    "handlebars-helpers": "^0.7.5",
+    "lodash": "^3.9.3"
+  },
+  "devDependencies": {
+  },
+  "scripts":{
+    "start": "node ./app/index"
+  }
+}
